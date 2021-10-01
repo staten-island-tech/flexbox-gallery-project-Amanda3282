@@ -5,19 +5,21 @@ body,
   margin: 50;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #faf1e6;
+  background-color: #bdd2b6;
 }
 .parent {
   display: flex;
   justify-content: space-around;
 }
 .topic {
-  font-size: 3rem;
+  font-size: 4.5rem;
   text-align: center;
+  background-color: white;
+  font-family: "Satisfy", cursive;
 }
 .box {
-  border: 3px solid black;
+  background-color: white;
 }
 .box img {
-  width: 400px;
+  width: 20vw;
 }
