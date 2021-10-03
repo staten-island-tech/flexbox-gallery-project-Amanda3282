@@ -2,24 +2,45 @@ html,
 body,
 * {
   padding: 0;
-  margin: 50;
+  margin: 30;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #bdd2b6;
+  background-color: #ccbcac;
 }
 .parent {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .topic {
-  font-size: 4.5rem;
+  font-size: 4.75rem;
   text-align: center;
   background-color: white;
-  font-family: "Satisfy", cursive;
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .box {
   background-color: white;
+  box-shadow: 15px 15px #8a7e72;
+  border-radius: 10px;
 }
 .box img {
   width: 20vw;
+  margin-left: 60;
+  margin-right: 60;
+  margin-bottom: 10;
+  border-radius: 10px;
+}
+.play {
+  margin-top: 0;
+}
+p {
+  text-align: center;
+  background-color: white;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 35;
+  font-family: "Amatic SC", cursive;
 }
