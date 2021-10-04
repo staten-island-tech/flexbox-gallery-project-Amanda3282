@@ -2,7 +2,7 @@ html,
 body,
 * {
   padding: 0;
-  margin: 30;
+  margin: 3rem;
   box-sizing: border-box;
   font-size: 62.5%;
   background-color: #ccbcac;
@@ -23,15 +23,15 @@ body,
 }
 .box {
   background-color: white;
-  box-shadow: 15px 15px #8a7e72;
-  border-radius: 10px;
+  box-shadow: 1.5rem 1.5rem #8a7e72;
+  border-radius: 1rem;
 }
 .box img {
   width: 20vw;
-  margin-left: 60;
-  margin-right: 60;
-  margin-bottom: 10;
-  border-radius: 10px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
 }
 .play {
   margin-top: 0;
@@ -41,6 +41,6 @@ p {
   background-color: white;
   font-size: 4rem;
   margin-top: 0;
-  margin-bottom: 35;
+  margin-bottom: 3.5rem;
   font-family: "Amatic SC", cursive;
 }
