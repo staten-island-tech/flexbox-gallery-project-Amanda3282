@@ -25,6 +25,10 @@ body,
   background-color: white;
   box-shadow: 1.5rem 1.5rem #8a7e72;
   border-radius: 1rem;
+  transition: all 0.3s;
+}
+.box:hover {
+  transform: scale(1.07);
 }
 .box img {
   width: 20vw;
