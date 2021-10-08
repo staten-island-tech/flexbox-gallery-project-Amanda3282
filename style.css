@@ -14,23 +14,26 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin: 4rem;
 }
 .topic {
   font-size: 4.75rem;
   text-align: center;
   background-color: white;
   font-family: "Amatic SC", cursive;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 3rem 0;
 }
 .box {
   background-color: white;
-  box-shadow: 1.5rem 1.5rem #8a7e72;
+  box-shadow: 1.5rem 1.5rem #796e63;
   border-radius: 1rem;
   transition: all 0.3s;
   width: 29%;
   margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .box:hover {
   transform: scale(1.07);
@@ -38,10 +41,11 @@ body {
 }
 .box img {
   width: 20vw;
-  margin-left: 6rem;
-  margin-right: 6rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
+}
+.album-cover:hover {
+  animation: fadein 2.5s normal;
 }
 .play {
   margin-top: 0;
@@ -54,9 +58,7 @@ p {
   margin-bottom: 3.5rem;
   font-family: "Amatic SC", cursive;
 }
-.animation {
-  height: ;
-  animation: page-loader 5s infinite;
-}
-@keyframe page-loader {
+@keyframes fadein {
+  0% {opacity: 0.5;}
+  100% {opacity; 1}
 }
