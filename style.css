@@ -8,6 +8,34 @@ body,
 }
 body {
   background-color: #ccbcac;
+  animation: page-load 4s;
+}
+.animation {
+  height: 2rem;
+  width: 2rem;
+  animation: loading 4s infinite;
+  position: absolute;
+}
+@keyframes page-load {
+  0% {
+    opacity: 0;
+    background-color: rgb(54, 54, 54);
+  }
+  25% {
+    opacity: 0;
+    background-color: rgb(54, 54, 54);
+  }
+  50% {
+    opacity: 0;
+    background-color: rgb(54, 54, 54);
+  }
+  75% {
+    opacity: 0;
+    background-color: rgb(54, 54, 54);
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .parent {
   display: flex;
@@ -63,7 +91,7 @@ body {
 p {
   text-align: center;
   font-size: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 3.5rem;
   font-family: "Amatic SC", cursive;
   transition: all 0.4s;
