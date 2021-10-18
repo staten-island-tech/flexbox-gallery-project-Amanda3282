@@ -8,7 +8,7 @@ body,
 }
 body {
   background-color: #ccbcac;
-  animation: page-load 5s;
+  animation: page-load 3s;
 }
 @keyframes page-load {
   0% {
@@ -21,40 +21,6 @@ body {
   }
   100% {
     opacity: 1;
-  }
-}
-.animation {
-  height: 2rem;
-  width: 2rem;
-  border-radius: 2rem;
-  position: absolute;
-  animation: loading 5s infinite;
-}
-@keyframes loading {
-  0% {
-    left: 50%;
-    bottom: 10%;
-    background-color: silver;
-  }
-  25% {
-    left: 50%;
-    bottom: 20%;
-    background-color: silver;
-  }
-  50% {
-    left: 55%;
-    bottom: 20%;
-    background-color: silver;
-  }
-  75% {
-    left: 55%;
-    bottom: 10%;
-    background-color: silver;
-  }
-  100% {
-    left: 50%;
-    bottom: 10%;
-    background-color: silver;
   }
 }
 .parent {
@@ -149,4 +115,18 @@ body {
 }
 .info:hover .song-info {
   opacity: 1;
+}
+@media screen and (max-width: 810px) {
+  .box {
+    width: 60%;
+  }
+  .album-cover {
+    width: 35vw;
+  }
+  .bottom-play {
+    width: 35vw;
+  }
+  .song-info {
+    width: 35vw;
+  }
 }
