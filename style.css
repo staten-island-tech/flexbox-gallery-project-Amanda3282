@@ -123,10 +123,70 @@ body {
   .album-cover {
     width: 35vw;
   }
+  .play {
+    width: 12vw;
+  }
   .bottom-play {
     width: 35vw;
   }
   .song-info {
     width: 35vw;
+  }
+  #off-center {
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .box {
+    width: 70vw;
+  }
+  .album-cover {
+    width: 47vw;
+  }
+  .topic {
+    font-size: 4rem;
+  }
+  .bottom-play {
+    width: 47vw;
+  }
+  .song-info {
+    font-size: 2rem;
+    width: 47vw;
+  }
+  .artist {
+    font-size: 3rem;
+  }
+  .play {
+    width: 17vw;
+  }
+  #off-center {
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .box {
+    width: 70vw;
+  }
+  .album-cover {
+    width: 47vw;
+  }
+  .topic {
+    font-size: 3.2rem;
+  }
+  .artist {
+    font-size: 2.5rem;
+  }
+  .bottom-play {
+    width: 47vw;
+  }
+  .song-info {
+    font-size: 1.5rem;
+    width: 47vw;
+  }
+  #off-center {
+    margin-left: 3rem;
+  }
+  .play {
+    width: 17vw;
   }
 }
