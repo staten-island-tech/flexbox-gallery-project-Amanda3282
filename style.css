@@ -116,6 +116,25 @@ body {
 .info:hover .song-info {
   opacity: 1;
 }
+@media screen and (max-width: 1080px) {
+  .box {
+    width: 25vw;
+  }
+  .topic {
+    font-size: 3.5rem;
+  }
+  .artist {
+    font-size: 2.7rem;
+  }
+  .song-info {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 844px) {
+  .box {
+    width: 50vw;
+  }
+}
 @media screen and (max-width: 810px) {
   .box {
     width: 60%;
