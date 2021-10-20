@@ -130,9 +130,52 @@ body {
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 926px) {
   .box {
     width: 50vw;
+  }
+  .album-cover {
+    width: 40vw;
+  }
+  .bottom-play {
+    width: 40vw;
+  }
+  .topic {
+    font-size: 5rem;
+  }
+  .song-info {
+    width: 40vw;
+    font-size: 2.75rem;
+  }
+  .artist {
+    font-size: 4rem;
+  }
+  .play {
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 844px) {
+  .box {
+    width: 55vw;
+  }
+  .album-cover {
+    width: 43vw;
+  }
+  .topic {
+    font-size: 5rem;
+  }
+  .bottom-play {
+    width: 43vw;
+  }
+  .play {
+    width: 15vw;
+  }
+  .artist {
+    font-size: 4rem;
+  }
+  .song-info {
+    width: 43vw;
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 810px) {
